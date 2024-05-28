@@ -1,0 +1,42 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "metadata": {
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:nim/configparser",
+      "name": "configparser",
+      "description": "pure Ini configurations parser",
+      "version": "0.1.0",
+      "authors": [
+        {
+          "name": "xmonader"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nim:srcDir",
+          "value": "src"
+        },
+        {
+          "name": "nim:backend",
+          "value": "c"
+        }
+      ]
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:nim/configparser",
+      "dependsOn": []
+    }
+  ]
+}
